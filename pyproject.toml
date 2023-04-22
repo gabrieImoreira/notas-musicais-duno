@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "notas-musicais-duno"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Moreira <gabriel.antonioms@gmail.com>"]
+readme = "README.md"
+packages = [{include = "notas_musicais_duno"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
